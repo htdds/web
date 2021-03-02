@@ -1,0 +1,651 @@
+﻿<!DOCTYPE html>
+<html lang="zh-cn" class="">
+<head>
+    <title>技术 | HENG TONG</title>
+    <meta name="description" content="">
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="theme-color" content="#676767">
+    <link href="assets/css/aos.css?v=0e537d78ef" rel="stylesheet" type="text/css" media="all">
+    <link href="assets/css/material-icons.css?v=0e537d78ef" rel="stylesheet" type="text/css"
+        media="all">
+    <link href="assets/css/custom.css?v=0e537d78ef" rel="stylesheet" type="text/css"
+        media="all">
+    <link rel="shortcut icon" href="favicon.png" />
+    <link rel="icon" href="favicon.png" type="image/png" />
+    <meta name="referrer" content="no-referrer-when-downgrade" />
+    <meta property="og:site_name" content="HENG TONG Network" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="HENG TONG Network" />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="HENG TONG Network" />
+    <meta name="twitter:site" content="@HENG TONGnetwork" />
+    <meta name="generator" content="Ghost 3.41" />
+    <link rel="alternate" type="application/rss+xml" title="HENG TONG Network" href="" />
+    <meta property="og:image" content="assets/img/Gavin_750.jpg">
+    <!-- Klaro script – Cookie consent manager -->
+    <script defer type="text/javascript" src="assets/js/config.js?v=0e537d78ef"></script>
+    <!--<script defer type="text/javascript" src="assets/js/klaro.js?v=0e537d78ef"></script>-->
+    <!-- Global site tag (gtag.js) - Google Analytics with Klaro script -->
+    <script async type="opt-in" data-type="application/javascript" data-src="assets/js/hash.js"
+        data-name="googleAnalytics"></script>
+    <script type="opt-in" data-type="application/javascript" data-name="googleAnalytics">
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'UA-103354191-1');
+    </script>
+    <!-- Google Tag Manager w/ Klaro -->
+    <script type="opt-in" data-type="application/javascript" data-name="googleTagManager">
+    (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
+    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
+    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
+    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
+    })(window,document,'script','dataLayer','GTM-5BKVQLS');
+    </script>
+    <!-- End Google Tag Manager -->
+</head>
+<body class="path_/technology">
+    <header>
+    <nav class="navbar navbar--secondary navbar-expand-lg navbar-light bg-white border-bottom py-0">
+      <div class="container">
+        <div class="collapse navbar-collapse navMenu justify-content-between">
+          <div class="d-flex justify-content-end justify-content-lg-start pt-1 pt-md-0 order-2 order-lg-1">
+            <div class="dropdown dropdown-lng-choice">
+              <button class="btn dropdown-toggle btn-lng-choice mb-1 mb-lg-0" type="button" data-toggle="dropdown"
+                aria-haspopup="true" aria-expanded="false">
+                <span class="lng text-uppercase">中文</span>
+              </button>
+              <div class="dropdown-menu">
+                <a class="dropdown-item lng-choice" data-lng="en" href="../en/index.html">English</a>
+                <a class="dropdown-item lng-choice" data-lng="zh-cn">中文</a>
+              </div>
+              <script>
+                  var lng = document.querySelector('.lng').innerHTML;
+                  document.querySelectorAll('.lng-choice').forEach(function (lngChoice) {
+                      if (lngChoice.dataset.lng === lng)
+                          lngChoice.parentNode.removeChild(lngChoice);
+                  });
+              </script>
+            </div>
+          </div>
+          <div class="py-1 d-flex flex-wrap align-items-center justify-content-between justify-content-lg-end order-1 order-lg-2">
+            <ul class="navbar-nav d-flex flex-row">
+              <li class="nav-item"><a href="http://book.baige.me/view/W01" target="_blank" class="text-small nav-link px-2 mr-2 font-weight-bold">白皮书</a></li>
+            </ul>
+            <ul class="list-social-links navbar-nav d-none d-lg-flex flex-row">
+              <li><a href="" target="_blank" class="text-dark"><i class="socicon-github"></i></a></li>
+              <li><a href="" target="_blank" class="text-dark"><i class="socicon-discord"></i></a></li>
+              <li><a href="https://twitter.com/SylviaF85345608?s=09" target="_blank" class="text-dark"><i class="socicon-twitter"></i></a></li>
+              <li><a id="support-link" href="contact.html" target="_blank" class="text-dark font-weight-bold">Support</a></li>
+            </ul>
+          </div>
+        </div>
+      </div>
+    </nav>
+    <nav class="navbar navbar--primary navbar-expand-lg navbar-light bg-white">
+      <div class="container">
+        <a class="navbar-brand">
+          <img class="logo header-logo-dark" alt="HENG TONG" src="assets/img/logo1.png">
+          <img class="logo header-logo-light" alt="HENG TONG" src="assets/img/logo2.png" style="display: none">
+        </a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target=".navMenu" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div id="main-nav" class="collapse navbar-collapse justify-content-end navMenu">
+          <ul class="navbar-nav">
+            <li class="nav-item"><a class="nav-link h5" href="index.html">首页</a></li>
+            <li class="nav-item"><a class="nav-link h5" href="technology.html">技术</a></li>
+            <li class="nav-item"><a class="nav-link h5" href="community.html">社区</a></li>
+            <li class="nav-item"><a class="nav-link h5" href="about.html">关于</a></li>
+            <li class="nav-item"><a class="nav-link h5" href="blog.html">博客</a></li>
+            <li class="nav-item"><a class="nav-link h5" href="build.html">建立在HENG TONG上</a></li>
+            <li class="nav-item"><a class="nav-link h5" href="contact.html">联络</a></li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+  </header>
+    <div class="header-bg">
+    </div>
+    <main class="page-wrapper">
+    
+<section class="pt-0 pb-0 bg-white">
+    <div class="height-40 py-3 py-md-4">
+        <div class="container">
+            <div class="row text-center justify-content-center">
+                <div class="col-md-12 col-lg-10 spacer-y-3">
+                    <h1 class="display-4 mb-4 text-dark" data-aos="fade-up">适用于下一代网络的可扩展，可互操作且安全的网络协议</h1>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="bg-secondary pt-lg-0 pb-0 pt-0">
+    <div class="container">
+        <div class="row justify-content-center align-content-xl-stretch">
+            <div class="col-md-6 col-xl-4 pt-lg-0 mt-minus-3">
+                <a href="" target="_blank">
+                    <div class="card shadow-lg bg-white hover-effect card-pill rounded-lg">
+                        <div class="card-body py-2">
+                            <div class="d-flex align-items-center">
+                                <img src="assets/img/logos/logo-circle-github.svg?v=0e537d78ef" class="icon mr-2 flex-shrink-0">
+                                <div>
+                                    <h5 class="mb-1">Github</h5>
+                                    <p class="mb-0">最新更改和版本纪录</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-6 col-xl-4 pt-lg-0 mt-md-minus-3">
+                <a href="" target="_blank">
+                    <div class="card shadow-lg bg-white hover-effect card-pill rounded-lg">
+                        <div class="card-body py-2">
+                            <div class="d-flex align-items-center">
+                                <img src="assets/img/logos/logo-circle-documentation.svg?v=0e537d78ef" class="icon mr-2 flex-shrink-0">
+                                <div>
+                                    <h5 class="mb-1">文档</h5>
+                                    <p class="mb-0">查看文档</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <div class="col-md-6 col-xl-4 pt-lg-0 mt-xl-minus-3">
+                <a href="" target="_blank">
+                    <div class="card shadow-lg bg-white hover-effect card-pill rounded-lg">
+                        <div class="card-body py-2">
+                            <div class="d-flex align-items-center">
+                                <img src="assets/img/logos/logo-circle-element.svg?v=0e537d78ef" class="icon mr-2 flex-shrink-0">
+                                <div>
+                                    <h5 class="mb-1">Element</h5>
+                                    <p class="mb-0">获得答复</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="row bg-secondary no-gutters pt-0 pb-lg-5">
+    <div class="col-md-12 col-lg-7 col-xl-8 d-flex flex-column" style="overflow: hidden;">
+        <img src="assets/img/dg-network-xl-2.svg?v=0e537d78ef" alt="Image" class="flex-grow-1" style="transform: scale(1.2);">
+    </div>
+    <div class="col-md-12 col-lg-5 col-xl-4 d-flex order-md-1 align-items-center">
+        <div class="row no-gutters justify-content-center py-md-4">
+            <div class="col-md-10 pl-2 pr-2 pt-4 p-sm-4">
+                <span class="h2 text-white d-block font-weight-bold">任何类型的数据穿越不同类型的区块链</span>
+                <p class="lead text-white">HENG TONG是一个网络协议，能够传递任何 数据(不只限于代币)到所有区块链。</p>
+                <p class="text-white">这意味着HENG TONG是一个真正的多链应用环境，使跨链注册和跨链计算等类似操作成为可能。</p>
+                <p class="text-white">HENG TONG能传递数据到公共、开放、公开的区块链和私有或联盟链。</p>
+                <p class="text-white"> 这使得构建从私有链获得许可数据并在公有链上使用的应用程序成为可能（例如，学校私有的学位记录区块链可以向公有链上的学位验证智能合约发送证明）。</p>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="bg-primary">
+    <div class="container">
+        <div class="row justify-content-center text-center">
+            <div class="col col-lg-8 pt-0 pb-0 pt-md-5 pb-md-5">
+                <h2 class="h1 text-white font-weight-bold">网络链路</h2>
+                <p class="lead text-white">
+                    HENG TONG将一个称为副链和副线程的异构区块链网络联合起来。这些链条连接到HENG TONG中继链并由其固定。它们还可以通过网桥与外部网络连接。
+                </p>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="bg-white" id="network-glossary">
+    <div class="container">
+        <div class="row">
+            <div class="col-12">
+                <h3 class="h2 mb-4 font-weight-bold text-center text-md-left">区块链</h3>
+            </div>
+        </div>
+        <div class="row justify-content-start mb-5 align-content-md-stretch">
+            <div class="col-12 col-md-6 col-lg-3 mb-3 m-lg-0">
+                <div class="card h-100">
+                    <img class="card-img icon icon-diagram mb-3 margin-max-md-auto" src="assets/img/icons/glossary/icon-glossary-relay-chain.svg?v=0e537d78ef" style="border-radius: 0;" />
+                    <h5 class="h6 mb-1 font-weight-bold text-center text-md-left">中继链</h5>
+                    <p class="text-center text-md-left">HENG TONG的心脏，负责网络的共享安全、共识和跨链互操作性。</p>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3 mb-3 m-lg-0">
+                <div class="card h-100">
+                    <img class="card-img icon icon-diagram mb-3 margin-max-md-auto" src="assets/img/icons/glossary/icon-glossary-parachain.svg?v=0e537d78ef" style="margin-left: -1.2rem;" />
+                    <h5 class="h6 mb-1 font-weight-bold text-center text-md-left">副链</h5>
+                    <p class="text-center text-md-left">主权区块链可以拥有自己的代币并针对特定用例优化其功能。</p>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3 mb-3 m-lg-0">
+                <div class="card h-100">
+                    <img class="card-img icon icon-diagram mb-3 margin-max-md-auto" src="assets/img/icons/glossary/icon-glossary-parathread.svg?v=0e537d78ef" style="margin-left: -0.8rem;" />
+                    <h5 class="h6 mb-1 font-weight-bold text-center text-md-left">副线程</h5>
+                    <p class="text-center text-md-left">与parachains类似，但采用现收现付模式。对于不需要连续连接到网络的区块链来说更经济。</p>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3 mb-3 m-lg-0">
+                <div class="card h-100">
+                    <img class="card-img icon icon-diagram mb-3 margin-max-md-auto" src="assets/img/icons/glossary/icon-glossary-bridge.svg?v=0e537d78ef" style="margin-left: -1rem;" />
+                    <h5 class="h6 mb-1 font-weight-bold text-center text-md-left">桥梁</h5>
+                    <p class="text-center text-md-left">允许副链和副线程与以太坊和比特币等外部网络连接和通信。</p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <h3 class="h2 mb-4 font-weight-bold text-center text-md-left">共识角色</h3>
+            </div>
+        </div>
+        <div class="row justify-content-start mb-5 align-content-md-stretch">
+            <div class="col-12 col-md-6 col-lg-3 mb-3 m-lg-0">
+                <div class="card h-100">
+                    <img class="card-img icon icon-diagram mb-3 margin-max-md-auto" src="assets/img/icons/glossary/icon-glossary-nominator.svg?v=0e537d78ef" style="margin-left: -0.8rem; margin-top: 0.4rem;" />
+                    <h5 class="h6 mb-1 font-weight-bold text-center text-md-left" style="margin-top: -0.4rem;">提名人</h5>
+                    <p class="text-center text-md-left">通过选择trustworty验证器和锁定点来保护中继链。</p>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3 mb-3 m-lg-0">
+                <div class="card h-100">
+                    <img class="card-img icon icon-diagram mb-3 margin-max-md-auto" src="assets/img/icons/glossary/icon-glossary-validator.svg?v=0e537d78ef" style="margin-left: -1rem;" />
+                    <h5 class="h6 mb-1 font-weight-bold text-center text-md-left">验证器</h5>
+                    <p class="text-center text-md-left">通过锁定点、验证来自collators的证明以及参与与其他验证器的一致性来保护中继链。</p>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3 mb-3 m-lg-0">
+                <div class="card h-100">
+                    <img class="card-img icon icon-diagram mb-3 margin-max-md-auto" src="assets/img/icons/glossary/icon-glossary-collator.svg?v=0e537d78ef" style="margin-left: -1.2rem;" />
+                    <h5 class="h6 mb-1 font-weight-bold text-center text-md-left">缩颈器</h5>
+                    <p class="text-center text-md-left">通过收集用户的碎片事务并为验证器提供证据来维护碎片。</p>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3 mb-3 m-lg-0">
+                <div class="card h-100">
+                    <img class="card-img icon icon-diagram mb-3 margin-max-md-auto" src="assets/img/icons/glossary/icon-glossary-fisherman.svg?v=0e537d78ef" style="margin-left: -1.2rem;" />
+                    <h5 class="h6 mb-1 font-weight-bold text-center text-md-left">渔民</h5>
+                    <p class="text-center text-md-left">监视网络并向验证程序报告不良行为。Collators和任何parachain满节点都可以执行fisherman角色。</p>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <h3 class="h2 mb-4 font-weight-bold text-center text-md-left">治理角色</h3>
+            </div>
+        </div>
+        <div class="row justify-content-start align-content-md-stretch">
+            <div class="col-12 col-md-6 col-lg-3 mb-3 m-lg-0">
+                <div class="card h-100">
+                    <img class="card-img icon icon-diagram mb-3 margin-max-md-auto" src="assets/img/icons/glossary/icon-glossary-council-member-2.svg?v=0e537d78ef" style="margin-left: -1rem;" />
+                    <h5 class="h6 mb-1 font-weight-bold text-center text-md-left">理事会成员</h5>
+                    <p class="text-center text-md-left">在两个主要的治理角色中代表被动的利益相关者：提议公民投票和否决危险的或恶意的公民投票。</p>
+                </div>
+            </div>
+            <div class="col-12 col-md-6 col-lg-3 mb-3 m-lg-0">
+                <div class="card h-100">
+                    <img class="card-img icon icon-diagram mb-3 margin-max-md-auto" src="assets/img/icons/glossary/icon-glossary-technical-committee-2.svg?v=0e537d78ef" style="margin-left: -0.4rem;"/>
+                        <h5 class="h6 mb-1 font-weight-bold text-center text-md-left">技术委员会</h5>
+                        <p class="text-center text-md-left">由积极构建HENG TONG的团队组成。可以与安理会一道提议紧急全民投票，以便进行快速表决和执行。</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="bg-gray pt-3 pt-lg-5">
+    <div class="container">
+        <div class="row justify-content-around align-items-center">
+            <div class="col-12 col-md-10 col-lg-5 mb-3">
+                <img src="assets/img/dg-stack.svg?v=0e537d78ef" alt="Image" class="flex-grow-1">
+            </div>
+            <div class="col-md-12 col-lg-6">
+                <span class="h2 d-block mb-4 font-weight-bold">利用最好的技术建立</span>
+                <p>HENG TONG的中继链是使用<a target="_blank" class="text-underline">Substrate</a>构建的，这是一种区块链构建框架，是Parity Technologies构建以太坊，比特币和企业区块链的经验的升华。
+                </p>
+                <p>HENG TONG的状态机被编译为WebAssembly（Wasm），这是一个超高性能的虚拟环境。 Wasm是由谷歌，苹果，微软和Mozilla等专业公司开发的，它们已经为该标准创建了一个庞大的生态系统。</p>
+                <p>HENG TONG的网络使用libp2p，这是一种灵活的跨平台网络框架，用于点对点应用程序。 libp2p定位为未来去中心应用程序的标准，处理HENG TONG生态系统中的对等方的发现和通信。</p>
+                <p>HENG TONG运行时环境正在使用Rust，C ++和Golang进行编码，使得HENG TONG可以供广大的开发人员访问。</p>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="bg-secondary">
+    <div class="container">
+        <div class="row text-center justify-content-center">
+            <div class="col-12 col-md-12">
+                <h2 class="h1 mb-4 text-white font-weight-bold">并行处理交易</h2>
+            </div>
+        </div>
+        <div class="row mt-4">
+            <div class="col-12 col-sm-12 col-lg-5 mb-4 mb-lg-0">
+                <p class="lead text-white">连接到HENG TONG的平行链都是专门的区块链， 每个平行链都具有独特的特征和自治的主权。</p>
+                <p class="lead text-white">链的交互是并行处理的，从而实现了高度可扩展的系统。</p>
+                <p class="lead text-white">事务可以跨链分布，允许在同一时间段内处理更多事务。</p>
+            </div>
+            <div class="col-12 col-sm-6 offset-lg-1 col-lg-3">
+                <p class="lead text-white"><strong>现时方法:</strong><br>单一交易</p>
+                <img src="assets/img/dg-transactions-old.svg?v=0e537d78ef" alt="Image" class="flex-grow-1 image-sm mb-2">
+            </div>
+            <div class="col-12 col-sm-6 col-lg-3">
+                <p class="lead text-white"><strong>HENG TONG方法:</strong><br>多个并行交易</p>
+                <img src="assets/img/dg-transactions-new.svg?v=0e537d78ef" alt="Image" class="flex-grow-1 image-sm mb-2">
+            </div>
+        </div>
+    </div>
+</section>
+<section class="bg-primary">
+    <div class="container">
+        <div class="row justify-content-center text-center">
+            <div class="col col-lg-8 pt-0 pb-0 pt-md-5 pb-md-5">
+                <h2 class="h1 text-white font-weight-bold">开创性技术</h2>
+                <p class="lead text-white">HENG TONG正在解决迄今为止阻碍区块链技术发展的许多问题；所有这些问题都集中在一个地方，没有任何妥协。</p>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="bg-white pb-0 pb-md-5">
+    <div class="container pt-3">
+        <div class="row justify-content-center align-items-center flex-row-reverse">
+            <div class="col-md-6 col-lg-4 text-center mb-5 mb-md-3">
+                <img src="assets/img/dg-security-model.svg?v=0e537d78ef" alt="Image" class="image-sm flex-grow-1">
+            </div>
+            <div class="col-md-6 col-lg-6">
+                <span class="h2 d-block mb-4 font-weight-bold">更好的安全模型</span>
+                <p>在工作证明和权益关系证明系统中，区块链相互竞争资源以确保其网络的安全，并且区块链很容易受到攻击，直到它们发展出一个重要的社区来支持它们的网络。</p>
+                <p>HENG TONG采用了一种不同的方法，让区块链共享它们的安全性，这意味着区块链的安全性被聚合并应用于所有的区块链。</p>
+                <p>通过把他们的区块链连接到HENG TONG，区块链开发人员可以从最开始就保护他们的区块链。</p>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="bg-white pb-0 pb-md-5">
+    <div class="container">
+        <div class="row justify-content-center align-items-center">
+            <div class="col-md-6 col-lg-4 text-center mb-5 mb-md-3">
+                <img src="assets/img/dg-governance.svg?v=0e537d78ef" alt="Image" class="image-sm flex-grow-1">
+            </div>
+            <div class="col-md-6 col-lg-6">
+                <span class="h2 d-block mb-4 font-weight-bold">高透明的链上治理</span>
+                <p>协议的更新是通过透明的链上投票来实现的，所以协议的开发不会因为缺少一个清晰的过程而停滞。中继链使用复杂的治理机制，旨在为解决争端和升级网络建立透明、负责任和有约束力的过程。</p>
+                <p>HTDD代币用于在参与治理决定 (包括：提交议案，投票，绑定） </p>
+                <p>平行链可以有自由设计它们自己的治理机制， 在不影响其它平行链情况下实现最大自由。</p>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="bg-white">
+    <div class="container mb-4">
+        <div class="row justify-content-center align-items-center flex-row-reverse">
+            <div class="col-md-6 col-lg-4 text-center mb-5 mb-md-3">
+                <img src="assets/img/dg-consensus.svg?v=0e537d78ef" alt="Image" class="image-sm flex-grow-1">
+            </div>
+            <div class="col-md-6 col-lg-6">
+                <span class="h2 d-block mb-4 font-weight-bold">GRANDPA:一个值得信赖的共识算法。</span>
+                <p>HENG TONG使用其原始的GRANDPA（基于GHOST的Recursive Ancestor Deriving Prefix Agreement）共识来建立一个更安全，更有弹性的网络。</p>
+                <p>在良好的网络条件下，GRANDPA几乎可以瞬间完成分块。在糟糕的网络条件下，比如网络分区，GRANDPA可以在分区解析时一次性完成大量的块(理论上是数百万个)。</p>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="bg-primary" id="roadmap">
+    <div class="container">
+        <div class="row justify-content-center text-center">
+            <div class="col col-lg-8 pt-0 pb-0 pt-md-5 pb-md-5">
+                <h3 class="h1 text-white font-weight-bold">路线图</h3>
+                <p class="lead text-white mt-4 mb-0">HENG TONG正在推出安全性、可扩展性和创新性方面最强大的平台。波尔卡多特在2020年5月发射了中继链的“创世”号，现在有望在2021年发射多条副链。</p>
+                <!--<a class="btn btn-primary btn-white btn-lg mt-4" href="/zh-cn/launch-roadmap">See Launch Roadmap</a>-->
+            </div>
+        </div>
+    </div>
+</section>
+<section class="bg-white">
+    <div class="container">
+        <div class="row mb-4 text-center">
+            <div class="col">
+                <h3 class="h2">有那些团队在HENG TONG上建立？以下有几个例子： </h3>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-6 col-lg-4 d-lg-flex">
+                <div class="card card-teams flex-fill border shadow">
+                    <div class="card-body py-3">
+                        <p class="mb-0">
+                            利用WebAssembly的智能合约链 (<a target="_blank" class="text-underline">Edgeware</a>，<a target="_blank" class="text-underline">Charred Cherry testnet</a>） 
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4 d-lg-flex">
+                <div class="card card-teams flex-fill border shadow">
+                    <div class="card-body py-3">
+                        <p class="mb-0">
+                            将所有文件存储链连接到托管数据集的数据管理网络(<a target="_blank" class="text-underline">Ocean Protocol</a>)
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4 d-lg-flex">
+                <div class="card card-teams flex-fill border shadow">
+                    <div class="card-body py-3">
+                        <p class="mb-0">
+                            预言机链，可以为HENG TONG网络上的所有合约提供链下数据（<a target="_blank" class="text-underline">ChainLink</a>）
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4 d-lg-flex">
+                <div class="card card-teams flex-fill border shadow">
+                    <div class="card-body py-3">
+                        <p class="mb-0">
+                            将帐户链接到长期身份并通过更少的帐户来访问其他平行链的身份链（<a target="_blank" class="text-underline">Speckle OS</a>）
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4 d-lg-flex">
+                <div class="card card-teams flex-fill border shadow">
+                    <div class="card-body py-3">
+                        <p class="mb-0">
+                            允许您将所有资产保存在一个投资组合中的金融链，包括通过桥接的比特币，以太坊，比特币现金，莱特币和ZCash（<a target="_blank" class="text-underline">ChainX</a>，<a target="_blank" class="text-underline">Katallassos</a>）的桥梁
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4 d-lg-flex">
+                <div class="card card-teams flex-fill border shadow">
+                    <div class="card-body py-3">
+                        <p class="mb-0">
+                            物联网链为机器对机器通信设定物联网标准（<a target="_blank" class="text-underline">MXC Protocol</a>协议）
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4 d-lg-flex">
+                <div class="card card-teams flex-fill border shadow">
+                    <div class="card-body py-3">
+                        <p class="mb-0">
+                            零知识隐私链或连接到现有ZK-snarks链 
+                        </p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4 d-lg-flex">
+                <div class="card card-teams flex-fill border shadow">
+                    <div class="card-body py-3">
+                        <p class="mb-0">文件存储链，激励在链上存储数据</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-6 col-lg-4 d-lg-flex">
+                <div class="card card-teams flex-fill border shadow">
+                    <div class="card-body py-3">
+                        <p class="mb-0">桥接以太坊，允许以太坊智能合约与HENG TONG网络互动</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+<section class="bg-white spacer-y-3">
+    <div class="container">
+        <div class="row justify-content-center">
+            <div class="col col-12 text-center">
+                <span class="h1 d-block mb-4">想立即开始?</span>
+                <a class="btn btn-primary btn-lg" href="build.html">在HENG TONG上建立</a>
+            </div>
+        </div>
+    </div>
+</section>
+  </main>
+    <section class="p-0">
+    <div class="container">
+        <div class="modal fade" id="subscribe-modal" tabindex="-1" role="dialog" aria-hidden="true">
+            <div class="modal-dialog modal-dialog-centered" role="document" style="max-width: 620px;">
+                <div class="modal-content bg-white rounded-lg">
+                    <div class="modal-body">
+                        <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                            <svg class="bg-white" width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                                <path d="M16.2426 6.34311L6.34309 16.2426C5.95257 16.6331 5.95257 17.2663 6.34309 17.6568C6.73362 18.0473 7.36678 18.0473 7.75731 17.6568L17.6568 7.75732C18.0473 7.36679 18.0473 6.73363 17.6568 6.34311C17.2663 5.95258 16.6331 5.95258 16.2426 6.34311Z" fill="#000" />
+                                <path d="M17.6568 16.2426L7.75734 6.34309C7.36681 5.95257 6.73365 5.95257 6.34313 6.34309C5.9526 6.73362 5.9526 7.36678 6.34313 7.75731L16.2426 17.6568C16.6331 18.0473 17.2663 18.0473 17.6568 17.6568C18.0474 17.2663 18.0474 16.6331 17.6568 16.2426Z" fill="#000" />
+                            </svg>
+                        </button>
+                        <div class="m-xl-4 m-3">
+                            <div class="text-center mb-3">
+                                <p class="h1 mb-2 font-weight-bold">Stay in the loop</p>
+                            </div>
+                            <div class="hs-form-container hs-form-container--labels">
+                              <!--[if lte IE 8]>
+                              <script charset="utf-8" type="text/javascript" src="//js.hsforms.net/forms/v2-legacy.js"></script>
+                              <![endif]-->
+                              <script charset="utf-8" type="text/javascript" src="assets/js/v2.js"></script>
+                              <script>
+                                  hbspt.forms.create({
+                                      portalId: "7051618",
+                                      formId: "267aaf9d-9d79-4ce0-931a-09d859833654"
+                                  });
+                              </script>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+  </section>
+    <footer class="spacer-y-4 bg-dark pb-4">
+    <div class="container">
+      <div class="row">
+        <div class="col-6 col-md-4 col-lg-3 mb-3 mb-md-0">
+          <h5 class="text-white">概括</h5>
+          <ul class="list-unstyled">
+            <li class="py-0 py-md-1"><a href="about.html" class="text-white">关于</a></li>
+            <li class="py-0 py-md-1"><a href="contact.html" class="text-white">Support</a></li>
+            <li class="py-0 py-md-1"><a href="build.html" class="text-white">建立在HENG TONG上</a></li>
+            <li class="py-0 py-md-1"><a href="" target="_blank" class="text-white">资助和赏金</a></li>
+            <li class="py-0 py-md-1"><a href="" class="text-white">职位空缺</a></li>
+          </ul>
+        </div>
+        <div class="col-6 col-md-4 col-lg-3 mb-3 mb-md-0">
+          <h5 class="text-white">技术</h5>
+          <ul class="list-unstyled">
+            <li class="py-0 py-md-1"><a href="technology.html" class="text-white">技术</a></li>
+            <li class="py-0 py-md-1"><a href="" target="_blank" class="text-white">Telemetry</a></li>
+            <li class="py-0 py-md-1"><a href="https://www.substrate.io" target="_blank" class="text-white">Substrate</a></li>
+            <li class="py-0 py-md-1"><a href="http://book.baige.me/view/W01" class="text-white" target="_blank">白皮书</a></li>
+          </ul>
+        </div>
+        <div class="col-12 col-md-4 col-lg-2 col-xl-3 mb-3 mb-md-4 mb-lg-0">
+          <h5 class="text-white">社区</h5>
+          <ul class="list-unstyled">
+            <li class="py-0 py-md-1"><a href="community.html" class="text-white">社区</a></li>
+            <li class="py-0 py-md-1"><a href="" target="_blank" class="text-white">文档</a></li>
+            <li class="py-0 py-md-1"><a href="blog.html" class="text-white">博客</a></li>
+            <li class="py-0 py-md-1"><a href="" target="_blank" class="text-white">Element</a></li>
+            <li class="py-0 py-md-1"><a href="" target="_blank" class="text-white">Medium</a></li>
+          </ul>
+        </div>
+        <div class="col-12 col-lg-3 px-lg-0 mt-4 mt-lg-0">
+          <ul class="list-social-links justify-content-start justify-content-lg-between mb-4 mb-md-5 mb-lg-4 mb-xl-3">
+            <li class="text-white mr-2 mr-lg-0"><a href="https://twitter.com/SylviaF85345608?s=09" target="_blank"><i class="socicon-twitter"></i></a></li>
+            <li class="text-white mr-2 mr-lg-0"><a href="" target="_blank"><i class="socicon-reddit"></i></a></li>
+            <li class="text-white mr-2 mr-lg-0"><a href="" target="_blank"><i class="socicon-github"></i></a></li>
+            <li class="text-white mr-2 mr-lg-0"><a href="" target="_blank"><i class="socicon-youtube"></i></a></li>
+            <li class="text-white mr-2 mr-lg-0"><a href="" target="_blank"><i class="socicon-discord"></i></a></li>
+          </ul>
+          <p class="d-block text-white">订阅我们的电子报，接收HENG TONG最新消息和活动。</p>
+        </div>
+      </div>
+      <div class="row footer-legal align-items-end mt-4 mt-lg-5 pt-md-4">
+        <div class="col-12 col-lg-2 mb-2 mb-lg-0">
+          <a class="navbar-brand" href="/zh-cn/">
+            <img class="logo" alt="HENG TONG" src="assets/img/logo2.png">
+          </a>
+        </div>
+        <div class="col-12 col-lg-10">
+          <ul class="list-unstyled d-flex flex-wrap list-pipe-separator">
+            <li>
+              <span class="text-small text-white mr-1">&#xA9;
+                <script type="text/JavaScript">                    document.write(new Date().getFullYear());</script> <a  class="text-white" target="_blank">HENG TONG Foundation</a> |</span>
+            </li>
+            <li><a href="" class="text-white text-small">Impressum</a></li>
+            <li><a href="" class="text-white text-small">免责声明</a></li>
+            <li><a href="" class="text-white text-small">Privacy</a></li>
+            <li><a href="" class="text-white text-small">Cookie Settings</a></li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </footer>
+    <script type="text/javascript" src="assets/js/jquery.min.js?v=0e537d78ef"></script>
+    <script type="text/javascript" src="assets/js/popper.min.js?v=0e537d78ef"></script>
+    <script type="text/javascript" src="assets/js/prism.js?v=0e537d78ef"></script>
+    <script type="text/javascript" src="assets/js/smooth-scroll.polyfills.js?v=0e537d78ef"></script>
+    <script type="text/javascript" src="assets/js/scrollMonitor.js?v=0e537d78ef"></script>
+    <script type="text/javascript" src="assets/js/bootstrap.js?v=0e537d78ef"></script>
+    <script type="text/javascript" src="assets/js/clipboard.js?v=0e537d78ef"></script>
+    <script type="text/javascript" src="assets/js/jquery.countdown.min.js?v=0e537d78ef"></script>
+    <script type="text/javascript" src="assets/js/flickity.pkgd.min.js?v=0e537d78ef"></script>
+    <script type="text/javascript" src="assets/js/flickity-fade.js?v=0e537d78ef"></script>
+    <script type="text/javascript" src="assets/js/hash.js?v=0e537d78ef"></script>
+    <script type="text/javascript" src="assets/js/isotope.pkgd.min.js?v=0e537d78ef"></script>
+    <script type="text/javascript" src="assets/js/jquery.fancybox.min.js?v=0e537d78ef"></script>
+    <script type="text/javascript" src="assets/js/zoom.min.js?v=0e537d78ef"></script>
+    <script type="text/javascript" src="assets/js/aos.js?v=0e537d78ef"></script>
+    <script type="text/javascript" src="assets/js/theme.js?v=0e537d78ef"></script>
+    <script type="text/javascript" src="assets/js/theme-custom.js?v=0e537d78ef"></script>
+    <script type="text/javascript" src="assets/js/prevent.framing.js?v=0e537d78ef"></script>
+    <script>
+        $('.carousel').on('select.flickity', function () {
+            $('.carousel-nav > li').filter('.is-selected')
+            .removeClass('is-selected');
+            $('.carousel-nav > li').eq($('.carousel').data('flickity').selectedIndex)
+            .addClass('is-selected');
+        });
+    </script>
+    <script>
+        var images = document.querySelectorAll('.kg-gallery-image img');
+        images.forEach(function (image) {
+            var container = image.closest('.kg-gallery-image');
+            var width = image.attributes.width.value;
+            var height = image.attributes.height.value;
+            var ratio = width / height;
+            container.style.flex = ratio + ' 1 0%';
+        })
+
+        var dates = document.querySelectorAll('.date-i18n');
+        dates.forEach(function (date) {
+            var dateObject = new Date(Date.parse(date.innerHTML));
+            var options = { year: 'numeric', month: 'long', day: 'numeric' };
+            var language = date.dataset.lang;
+            date.innerHTML = dateObject.toLocaleDateString(language, options);
+        });
+    </script>
+    <!-- Start of HubSpot Embed Code with Klaro script -->
+    <script type="opt-in" data-type="application/javascript" id="hs-script-loader" data-src="assets/js/7051618.js"
+        data-name="hubSpot" async></script>
+    <!-- End of HubSpot Embed Code -->
+</body>
+</html>

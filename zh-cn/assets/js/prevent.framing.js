@@ -1,0 +1,1 @@
+if (window !== top && document.referrer !== 'https://emily.ghost.io/ghost/' && document.referrer !== 'http://localhost:2368/ghost/' && document.referrer !== 'http://127.0.0.1:2368/ghost/') top.location = window.location;
